@@ -1,0 +1,47 @@
+.maindiv{
+  display: flex;
+
+  justify-content: space-between;
+
+
+}
+.leftdiv{
+  background-color:red;
+  width: 25%;
+  position: fixed;
+
+
+}
+.rightdiv{
+margin-left: 30%;
+  width: 74%;
+  background-color: orange;
+
+}
+
+
+
+@media all and (min-width:500px) {
+.maindiv{
+  flex-wrap:
+}
+.leftdiv{
+  position: relative;
+
+width: 100%;
+}
+.rightdiv{
+  margin-left: 0;
+  width: 100%;
+}
+
+
+}
+
+@media all and (max-width:750px) {
+
+
+
+
+
+}
